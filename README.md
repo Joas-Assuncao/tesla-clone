@@ -1,4 +1,7 @@
-### Repo to Tesla website clone!
+## Repo to Tesla website clone!
+
+</br>
+</br>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Joas-Assuncao&show_icons=true&theme=dark)
 
