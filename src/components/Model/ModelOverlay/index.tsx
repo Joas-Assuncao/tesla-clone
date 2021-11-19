@@ -1,5 +1,5 @@
 import { useTransform } from 'framer-motion';
-import React, { useCallback, useEffect, useLayoutEffect, useState } from 'react';
+import React, { useCallback, useLayoutEffect, useState } from 'react';
 
 import { CarModel } from '../ModelsContext';
 import useWrapperScroll from '../useWrapperScroll';
@@ -32,7 +32,7 @@ const ModelOverlay: React.FC<Props> = ({ children, model }) => {
         window.addEventListener('resize', onResize)
 
         return () => window.removeEventListener('resize', onResize);
-    }, []);
+    }, [setDimensions, getSectionDimensions]);
 
     const { scrollY } = useWrapperScroll();
 
